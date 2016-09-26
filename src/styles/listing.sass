@@ -1,0 +1,100 @@
+body
+  background-color: #83CCB4
+
+.container
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.row
+  padding: 20px
+
+.dropdown-toggle
+  width: 200px
+  background-color: #048897
+  font-size: 23px
+  color: #CFE3D0
+  border: 2px solid #cfe3d0
+  border-radius: 20px
+  font-weight: bold
+  font-family: 'Josefin Sans', sans-serif
+  padding: 8px 6px 3px
+  &:hover, &:focus
+    background-color: #CFE3D0
+    color: #048897
+    border: 2px solid #048897
+
+.dropdown-menu
+  width: 190px
+  border-radius: 20px
+  margin-left: 20px
+  font-size: 20px
+  color: #048897
+  li a
+    color: #048897
+
+button#Tooltip
+  border-radius: 100%
+  font-size: 12px
+  background-color: #048897
+  color: #FFF
+  border: none
+
+.excerpt
+  display: flex
+  flex-direction: row
+  align-items: center
+  border-bottom: 2px dotted #CFE3D0
+  color: #096378
+  padding-left: 25%
+  padding-right: 25%
+
+a:hover .excerpt
+  background-color: #CFE3D0
+
+.excerpt img
+  height: 100px
+  width: 100px
+  border-radius: 100%
+  margin: 10px
+  border: 3px solid #096378
+
+h1
+  font-family: 'Josefin Sans', sans-serif
+  text-align: center
+  color: #096378
+  font-size: 40px
+
+.excerpt-text h2
+  font-family: 'Josefin Sans', sans-serif
+  font-size: 26px
+  margin: 5px
+  text-align: left
+
+.excerpt-text h3
+  font-size: 16px
+  margin: 0px
+  font-family: 'Josefin Sans', sans-serif
+  font-weight: normal
+  line-height: 1.2em
+  text-align: left
+
+a
+  text-decoration: none
+  &:hover
+    text-decoration: none
+
+@media (max-width: 1000px)
+  .excerpt
+    padding-left: 10%
+    padding-right: 10%
+
+@media (max-width: 600px)
+  .excerpt-text
+    width: 60%
+  h2
+    font-size: 17px
+  .row
+    padding: 10px
+  .dropdown-toggle
+    width: 150px

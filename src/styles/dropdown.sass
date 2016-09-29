@@ -1,14 +1,25 @@
-ul
-  list-style: none
-  width: 550px
-  font-family: 'Josefin Sans', sans-serif
-  color: #343f43
+.dropdownToggle li
+  display: none
+
+.dropdownToggle:hover ul
+  position: absolute
   background-color: #CFE3D0
   border-radius: 20px
   padding: 10px
   border: 3px solid #048897
+  margin-top: 5px
+  width: 225px
+  column-count: 2
+
+.dropdownToggle:hover li
   display: flex
-  flex-direction: column
-  flex-wrap: wrap
-  height: 80px
-  width: 450px
+  flex-direction: row
+  list-style: none
+  font-family: 'Josefin Sans', sans-serif
+  color: #343f43
+
+input[type='text']
+  font-size: 20px
+  margin: 5px
+  padding-left: 10px
+  border: 2px solid #048897

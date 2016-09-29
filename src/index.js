@@ -7,9 +7,10 @@ import { Router, Route, hashHistory } from 'react-router'
 
 render((
   <Router history={hashHistory}>
-  <Route path='/' component={App}/>
-  <Route path='/listing' component={Listing}/>
-  <Route path='/location/:Slug' component={Location}/>
+  <Route component={App}>
+    <Route path='/' component={Listing} />
+    <Route path='/location/:Slug' component={Location} />
+  </Route>
   </Router>
 
 ), document.getElementById('root'))

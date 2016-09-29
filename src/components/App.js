@@ -6,27 +6,30 @@ class App extends Component {
 
   constructor () {
     super()
-
-    this.state = { coordinates: {latitude: 27.7702504, longitude: -82.636237} }
-
-    window.onload = function () {
-      let startPos
-      let geoSuccess = function (position) {
-        startPos = position
-        this.state = { coordinates: startPos.coords }
-        console.log(this.state.coordinates)
+    this.state = {
+      coordinates: {
+        latitude: 27.7702504,
+        longitude: -82.636237
       }
-      navigator.geolocation.getCurrentPosition(geoSuccess.bind(this))
     }
   }
 
+  componentDidMount () {
+    let geoSuccess = (position) => {
+      this.setState({ coordinates: {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude
+      }})
+      console.log('APP COORDS', this.state.coordinates)
+    }
+    navigator.geolocation.getCurrentPosition(geoSuccess)
+  }
+
   render () {
-    return (
-            <div>
-            <p></p>
-            <Listing coordinates={this.state.coordinates}/>
-            </div>
-          )
+    return React.cloneElement(this.props.children, {
+      coordinates: this.state.coordinates
+    })
   }
-  }
+}
+
 export default App

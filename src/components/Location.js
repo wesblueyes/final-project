@@ -12,7 +12,7 @@ class Location extends Component {
 
     return (
       <div>
-        <Link to='/listing'><button type='button' className='dropdown-toggle'><span>Back to List </span></button></Link>
+        <Link to='/'><button type='button' className='dropdown-toggle'><span>Back to List </span></button></Link>
           <div className='complete-images'>
           <img src={listing.Photo}/>
           </div>

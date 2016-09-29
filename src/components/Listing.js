@@ -6,18 +6,25 @@ import Dropdown from './Dropdown'
 import StartingPoint from './StartingPoint'
 
 class Listing extends Component {
+  static propTypes = {
+    coordinates: React.PropTypes.object
+  }
 
   render () {
+    const { coordinates } = this.props
+    console.log(coordinates)
     let allListings = listings.allLocations.map((listings, index) => {
       return (
         <div>
           <Link to={`/location/${listings.Slug}`}>
           <div className='excerpt' key={index}>
-          <img src={listings.Photo}/>
-          <div className='excerpt-text'>
-          <h2>{listings.Title}</h2>
-          <h3><b>Activities/Amenities: </b>{listings.ActivitiesAmenities}</h3>
-        </div>
+            <div className='listingImage'>
+            <img src={listings.Photo}/>
+            </div>
+            <div className='excerpt-text'>
+            <h2>{listings.Title}</h2>
+            <h3><b>Activities/Amenities: </b>{listings.ActivitiesAmenities}</h3>
+          </div>
         </div>
         </Link>
         </div>
@@ -28,8 +35,6 @@ class Listing extends Component {
       <div>
       <h1>Splash Search</h1>
       <div className='filters'>
-      <StartingPoint />
-      <Dropdown />
       </div>
       <div className='container'>
       {allListings}

@@ -20,7 +20,7 @@ class App extends Component {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude
       }})
-      console.log(this.state.coordinates)
+      //console.log(this.state.coordinates)
     }
     navigator.geolocation.getCurrentPosition(geoSuccess)
   }

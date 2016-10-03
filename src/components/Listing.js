@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 import '../styles/listing.sass'
 import listings from './listings.json'
-import Dropdown from './Dropdown'
-import StartingPoint from './StartingPoint'
+
 
 class Listing extends Component {
   static propTypes = {
@@ -12,17 +11,22 @@ class Listing extends Component {
 
   render () {
     const { coordinates } = this.props
-    console.log(coordinates)
+    const haversine = require('haversine')
+    let start = { latitude: coordinates.latitude, longitude: coordinates.longitude }
     let allListings = listings.allLocations.map((listings, index) => {
+    let end = { latitude: listings.AddressLat, longitude: listings.AddressLong }
+    let distance = Math.round(haversine(start, end, {unit: 'mile'}))
+    console.log(distance)
       return (
-        <div>
+        <div key={index}>
           <Link to={`/location/${listings.Slug}`}>
-          <div className='excerpt' key={index}>
+          <div className='excerpt'>
             <div className='listingImage'>
             <img src={listings.Photo}/>
             </div>
             <div className='excerpt-text'>
             <h2>{listings.Title}</h2>
+            <h3><b>Distance:</b> { distance } miles</h3>
             <h3><b>Activities/Amenities: </b>{listings.ActivitiesAmenities}</h3>
           </div>
         </div>

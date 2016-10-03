@@ -13,21 +13,36 @@ class Listing extends Component {
     const { coordinates } = this.props
     const haversine = require('haversine')
     let start = { latitude: coordinates.latitude, longitude: coordinates.longitude }
-    let allListings = listings.allLocations.map((listings, index) => {
-    let end = { latitude: listings.AddressLat, longitude: listings.AddressLong }
-    let distance = Math.round(haversine(start, end, {unit: 'mile'}))
-    console.log(distance)
+
+    // Function for computing distance from user's geolocation
+    let distance = (listing) => {
+      let end = { latitude: listing.AddressLat, longitude: listing.AddressLong }
+      return Math.round(haversine(start, end, {unit: 'mile'}))
+    }
+
+    // Add a distance from user's geolocation to location in the JSON data
+    listings.allLocations.forEach((location) => {
+      location.distance = distance(location)
+    })
+
+    // Make a new array of the locations, but sorted by the distance
+    let sortedListings = listings.allLocations.sort((listing_a, listing_b) => {
+      return (listing_a.distance > listing_b.distance) ? 1 : -1
+    })
+
+    // Turn those sorted listings into DOM
+    let allListings = sortedListings.map((listing, index) => {
       return (
         <div key={index}>
-          <Link to={`/location/${listings.Slug}`}>
+          <Link to={`/location/${listing.Slug}`}>
           <div className='excerpt'>
             <div className='listingImage'>
-            <img src={listings.Photo}/>
+            <img src={listing.Photo}/>
             </div>
             <div className='excerpt-text'>
-            <h2>{listings.Title}</h2>
-            <h3><b>Distance:</b> { distance } miles</h3>
-            <h3><b>Activities/Amenities: </b>{listings.ActivitiesAmenities}</h3>
+            <h2>{listing.Title}</h2>
+            <h3><b>Distance:</b> { listing.distance } miles</h3>
+            <h3><b>Activities/Amenities: </b>{listing.ActivitiesAmenities}</h3>
           </div>
         </div>
         </Link>
@@ -37,12 +52,12 @@ class Listing extends Component {
 
     return (
       <div>
-      <h1>Splash Search</h1>
-      <div className='filters'>
-      </div>
-      <div className='container'>
-      {allListings}
-      </div>
+        <h1>Splash Search</h1>
+        <div className='filters'>
+        </div>
+        <div className='container'>
+          {allListings}
+        </div>
       </div>
     )
   }

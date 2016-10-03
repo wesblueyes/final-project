@@ -93,7 +93,7 @@
       "Hours": "Sunrise to Sundown",
       "EntranceFee": "No",
       "Website": "http://www.tampabay.com/things-to-do/destination-detail/picnic-island-park/6546",
-      "Phone": "1-813-274-8615",
+      "Phone": "tel:1-813-274-8615",
       "Address": "7409 Picnic Island Blvd, Tampa, FL 33616",
       "AddressLat": "27.855480",
       "AddressLong": "-82.550566",
@@ -104,16 +104,29 @@
       "Photo": "http://thingstodo.s3.amazonaws.com/resources/photos/Cypress_Point_Park.JPG",
       "Title": "Cypress Point Park",
       "Slug": "cpp",
-      "Distance": "15 mi",
       "WaterType": "Salt",
       "Hours": "Sunrise to Sundown",
       "EntranceFee": "No",
       "Website": "http://www.tampabay.com/things-to-do/destination-detail/parks/6108",
-      "Phone": "1-813-274-7722",
+      "Phone": "tel:1-813-274-7722",
       "AddressLat": "27.950931",
       "AddressLong": "-82.545178",
       "ActivitiesAmenities": "Beach, Fishing, Playground, Frisbee Golf, Canoeing & Kayaking, Volleyball, Swimming, Picnicking, Bathrooms",
       "Description": "Cypress Point Park is no urban legend. Who knew you could fly a kite, launch a canoe and spike a volleyball on a dead-end flank of western Cypress Street? Unexpected pleasures lie beyond billowing mangroves exactly 1 mile from bustling West Shore Boulevard.  Look up to blue herons and Jet Blue sharing the flight path. Gaze down to see crabs scuttling in the wet sand. Tampa Parks and Recreation maintains the beach, nature trails and picnic grills behind a row of office buildings fronting Tampa Bay. There’s ample parking and ADA accessibility."
+    },
+    {
+      "Photo": "http://www.pinellascounty.org/park/images/RSBA.jpg",
+      "Title": "Redington Shores Beach Access",
+      "Slug": "rsba",
+      "WaterType": "Salt",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "Yes",
+      "Website": "http://www.pinellascounty.org/park/13_Redington.htm",
+      "Phone": "tel:1-727-582-2100",
+      "AddressLat": "27.833500",
+      "AddressLong": "-82.834185",
+      "ActivitiesAmenities": "Beach, Swimming, Bathrooms",
+      "Description": "This 3.5-acre gulf site was acquired in 1973 at a cost of $909,500 and developed through the Florida Recreation Development Assistance Program. The beach was opened to the public on August 9, 1973. To compliment this outstanding facility and help preserve the beach, a dune establishment program was started in 1990. Seashore grasses, plants, and two boardwalks were added to help protect this delicate area which attracts over 600,000 visitors each year."
     }
   ]
 }

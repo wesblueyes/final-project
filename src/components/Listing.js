@@ -63,7 +63,7 @@ class Listing extends Component {
     return (
       <div>
         <Link to={`/`}><h1>Splash Search</h1></Link>
-        <form><input type="search" name="s"/></form>
+        <form><input type="search" name="s" placeholder="Search Activities and Amenities"/></form>
         <div className='filters'>
         </div>
         <div className='container'>

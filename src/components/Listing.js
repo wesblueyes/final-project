@@ -30,8 +30,18 @@ class Listing extends Component {
       return (listing_a.distance > listing_b.distance) ? 1 : -1
     })
 
+    // Return array of locations with search query
+    let searchQuery = (window.location.search.split("s=")[1])
+    if (searchQuery) {
+      searchQuery = searchQuery.toLowerCase()
+      sortedListings = sortedListings.filter((listing) => {
+        return listing.ActivitiesAmenities.toLowerCase().search(searchQuery) > -1
+      })
+    }
+
     // Turn those sorted listings into DOM
     let allListings = sortedListings.map((listing, index) => {
+
       return (
         <div key={index}>
           <Link to={`/location/${listing.Slug}`}>
@@ -52,7 +62,8 @@ class Listing extends Component {
 
     return (
       <div>
-        <h1>Splash Search</h1>
+        <Link to={`/`}><h1>Splash Search</h1></Link>
+        <form><input type="search" name="s"/></form>
         <div className='filters'>
         </div>
         <div className='container'>

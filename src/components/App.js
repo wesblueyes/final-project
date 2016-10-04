@@ -8,8 +8,8 @@ class App extends Component {
     this.state = {
       // Default Coordinates (The Iron Yard St. Pete)
       coordinates: {
-        latitude: 27.7702504,
-        longitude: -82.636237
+        latitude: 27.751828,
+        longitude: -82.626734
       }
     }
   }

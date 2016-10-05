@@ -2,11 +2,22 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 import '../styles/listing.sass'
 import listings from './listings.json'
+import Footer from './Footer'
 
 
 class Listing extends Component {
   static propTypes = {
     coordinates: React.PropTypes.object
+  }
+  constructor (props) {
+    super(props)
+
+    this.state = { searchQuery: "" }
+  }
+
+  handleChange = (event) => {
+    console.log("handleChange")
+    this.setState({searchQuery: event.target.value})
   }
 
   render () {
@@ -30,12 +41,12 @@ class Listing extends Component {
       return (listing_a.distance > listing_b.distance) ? 1 : -1
     })
 
-    // Return array of locations with search query
-    let searchQuery = (window.location.search.split("s=")[1])
-    if (searchQuery) {
-      searchQuery = searchQuery.toLowerCase()
+    if (this.state.searchQuery.length > 1)
+    {
+      const searchQuery = this.state.searchQuery.toLowerCase()
       sortedListings = sortedListings.filter((listing) => {
-        return listing.ActivitiesAmenities.toLowerCase().search(searchQuery) > -1
+        return listing.ActivitiesAmenities.toLowerCase().search(searchQuery) > -1 ||
+               listing.Title.toLowerCase().search(searchQuery) > -1
       })
     }
 
@@ -63,11 +74,12 @@ class Listing extends Component {
     return (
       <div>
         <Link to={`/`}><h1>Splash Search</h1></Link>
-        <form><input type="search" name="s" placeholder="Search Activities and Amenities"/></form>
+        <form><input type="search" name="s" value={this.searchQuery} onChange={this.handleChange} placeholder="Search Activities/Amenities"/></form>
         <div className='filters'>
         </div>
         <div className='container'>
           {allListings}
+          <Footer />
         </div>
       </div>
     )

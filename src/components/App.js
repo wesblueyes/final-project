@@ -6,7 +6,7 @@ class App extends Component {
   constructor () {
     super()
     this.state = {
-      // Default Coordinates (The Iron Yard St. Pete)
+      // Default Coordinates (St. Petersburg)
       coordinates: {
         latitude: 27.751828,
         longitude: -82.626734

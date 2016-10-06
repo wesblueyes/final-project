@@ -79,8 +79,8 @@ class Listing extends Component {
         </div>
         <div className='container'>
           {allListings}
-          <Footer />
         </div>
+          <Footer />
       </div>
     )
   }

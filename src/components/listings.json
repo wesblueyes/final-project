@@ -118,6 +118,97 @@
       "AddressLong": "-82.834185",
       "ActivitiesAmenities": "Beach, Swimming, Bathrooms",
       "Description": "This 3.5-acre gulf site was acquired in 1973 at a cost of $909,500 and developed through the Florida Recreation Development Assistance Program. The beach was opened to the public on August 9, 1973. To compliment this outstanding facility and help preserve the beach, a dune establishment program was started in 1990. Seashore grasses, plants, and two boardwalks were added to help protect this delicate area which attracts over 600,000 visitors each year."
+    },
+    {
+      "Photo": "http://www.hillsboroughcounty.org/library/hillsborough/locations/aldermans-ford-park/aldermanford2.jpg",
+      "Title": "Upper Tampa Bay Park",
+      "Slug": "utbp",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "Yes",
+      "Website": "http://www.hillsboroughcounty.org/en/locations/upper-tampa-bay-park",
+      "Phone": "tel:1-813-855-1765",
+      "AddressLat": "28.014771",
+      "AddressLong": "-82.633423",
+      "ActivitiesAmenities": "Barbecue Grills, Boardwalk, Canoe Rentals, Hiking, Playground, Bathrooms, Fishing",
+      "Description": "Hillsborough County founded the Upper Tampa Bay Park in 1982 to provide a protected area for nature study and passive recreation. The 596-acre peninsular park also protects valuable coastal habitat and ecological communities that include mangrove forests, salt marshes, freshwater marshes, coastal hammocks, and pine flatwoods. The Upper Tampa Bay Park offers an abundance of wildlife and other ecological treasures for any devoted nature lover. Visitors can take a hike on nature trails and boardwalks and see gopher tortoises, zebra swallowtail butterflies, and even bobcats. They can also check out the shallow fresh water ponds that provide habitat for aquatic plants and animals. Live oaks and other hardwood trees often grow near these wetlands, where red shouldered hawks and bald eagles are sometimes seen. The shoreline and waters attract park wildlife and many other species, including roseate spoonbills, ospreys, otters, bottle nosed dolphins, and manatees. But the fun doesn’t stop with the nature walks. The park’s canoe/kayak launch provides access to the creek and bay, which are excellent places for game fish, including red drum and snook. And while adults can relax and have lunch at the picnic shelters and tables, children can enjoy the park’s centrally located playground. The park also has a nature center which not only contains interpretive exhibits that describe the park environment, history, and geology, but also live animal displays that houses fish, snakes, and turtles."
+    },
+    {
+      "Photo": "https://fl-hillsboroughcounty.civicplus.com/ImageRepository/Path?filePath=%2fdocuments%5c00000000-0000-0000-0000-000000000000%5c618%5c647%2fIMG_5809_201308161434526708.jpg",
+      "Title": "Lithia Springs Regional Park",
+      "Slug": "lsrp",
+      "Hours": "Fall/Winter Daily 8 AM - 6 PM, Spring Weekdays 10 AM - 5 PM and Weekends 9 AM - , Summer Daily 8 AM - 7 PM",
+      "EntranceFee": "Yes",
+      "Website": "https://fl-hillsboroughcounty.civicplus.com/facilities/Facility/Details/7938",
+      "Phone": "tel:1-813-744-5572",
+      "AddressLat": "27.865096",
+      "AddressLong": "-82.227807",
+      "ActivitiesAmenities": "Camping, Canoeing/Kayaking, Fishing, Pier, Picnicking, Playground, Bathrooms, Swimming, Hiking, Volleyball",
+      "Description": "The 160-acre park, located on the Alafia River, offers varied plant communities, river cypress swamps, hardwood hammocks.  The park’s major attraction is the natural spring that provides an excellent swimming experience since the water temperature remains at 72 degrees year around. In addition to swimming, there is a bath house, playground and picnic facilities. Alcoholic Beverages and other Intoxicants are prohibited at all of the Hillsborough County Parks."
+    },
+    {
+      "Photo": "https://www.floridastateparks.org/sites/default/files/styles/medium/public/Division%20of%20Recreation%20and%20Parks/mgr-msg/HRSP%20POOL%209.JPG?itok=zmb6DOeD",
+      "Title": "Hillsborough River State Park",
+      "Slug": "hrsp",
+      "Hours": "N/A",
+      "EntranceFee": "Yes",
+      "Website": "https://www.floridastateparks.org/park/Hillsborough-River",
+      "Phone": "tel:1-813-978-6771",
+      "AddressLat": "28.137846",
+      "AddressLong": "-82.228817",
+      "ActivitiesAmenities": "Camping, Canoeing/Kayaking, Fishing, Concession, Hiking, Playground, Pets, Bathrooms, Weddings, Geo-Seeking, Picnicking, Swimming",
+      "Description": "Opened in 1938, Hillsborough River State Park is one of Florida's first state parks; this original CCC Park is divided by the swiftly flowing Hillsborough River with a set of Class II rapids. The river provides opportunities for fishing, canoeing, and kayaking; a canoe/kayak launch is available at parking lot #4. The concession provides canoe, bike and golf cart rentals, breakfast and lunch menus, camping and picnic supplies, and a variety of memorable souvenirs. For rates and hours of operation, please contact the Hillsborough Park Pool Side Cafe at (813) 986-3322Call: (813) 986-3322, or via their web page.  Hikers can walk over seven miles of nature trails. Note: The Wetlands Restoration Trail accommodates both bicyclists and hikers only.  When the weather calls for it, visitors can enjoy a refreshing swim in the park's ADA accessible swimming pool.  Swimming pool hours of operation are 9:00 am to 5:00 pm, weather permitting.  Please contact the park for swimming pool informational updates at (813) 987-6771Call: (813) 987-6771.  The park offers full-facility camping and a youth/group tent campground.  A primitive campsite is available via foot trail; reservations are always recommended."
+    },
+    {
+      "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Interactive_Water_Park_at_Ballast_Point_Park.JPG/220px-Interactive_Water_Park_at_Ballast_Point_Park.JPG",
+      "Title": "Ballast Point Park",
+      "Slug": "bpp",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "No",
+      "Website": "https://en.wikipedia.org/wiki/Ballast_Point_Park",
+      "Phone": "tel:1-813-274-8615",
+      "AddressLat": "27.889141",
+      "AddressLong": "-82.481505",
+      "ActivitiesAmenities": "Picnicking, Playground, SplashPad, Pier, Fishing, Pets, Concession, Boating",
+      "Description": "Mrs. Chester W. Chapin controlling owner of the company which operated the city's first electric trolley cars, purchased these acres and in 1894 developed this site into a tropical park as a terminal for her line. She named it for the French writer Jules Verne (1814-1905) who in his famous novel From the Earth to the Moon first published in 1865 chose Tampa town as his launching site for the imaginary shot of his rocket to that planet near one hundred years ago.” Recent upgrades to Ballast Point Park include the addition of an interactive water play area for children. The sections of the park that are open from sunrise to sunset include the playground, water play area and shelters for picnics and parties. The park is not gated. Alcohol is not allowed in this City of Tampa Park. Animals must be leashed and under the control of the owners at all times. There is a 600-foot pier in the park that is open 24 hours. A new boat dock was added recently and there is a boat ramp that is also accessible 24 hours a day. There is lighted parking. Public restrooms are available. There is a small, informal concession at the pier, Taste of Boston, which serves seafood, ice cream and American food."
+    },
+    {
+      "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/St_Pete_Beach_FL_Pass-a-Grille_HD_GoM02.jpg/320px-St_Pete_Beach_FL_Pass-a-Grille_HD_GoM02.jpg",
+      "Title": "Pass-A-Grille Beach",
+      "Slug": "pagb",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "No",
+      "Website": "http://visitpassagrille.com/",
+      "Phone": "tel:1-727-403-6136",
+      "AddressLat": "27.695685",
+      "AddressLong": "-82.736737",
+      "ActivitiesAmenities": "Picnicking, Shopping, Bicycling, Boating, Fishing, Swimming, Beach",
+      "Description": "Welcome to Pass-A-Grille, the southernmost end of St. Pete Beach. Historic Pass-A-Grille is a quaint, laid back beach town where you can park your car and walk to the beach, boutiques, ice cream shop, outdoor art market, restaurants, tennis courts and fishing piers. In Pass-A-Grille you separate yourself from daily stresses because you are in paradise."
+    },
+    {
+      "Photo": "http://www.pinellascounty.org/park/images/SPBacc.JPG",
+      "Title": "St. Pete Beach Access",
+      "Slug": "spba",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "Yes",
+      "Website": "http://www.pinellascounty.org/park/17_StPete.htm",
+      "Phone": "tel:1-727-582-2100",
+      "AddressLat": "27.721886",
+      "AddressLong": "-82.740241",
+      "ActivitiesAmenities": "Swimming, Bathrooms",
+      "Description": "This 5.5-acre park represents a major commitment ($5,890,500 for land acquisition and $403,831 in park construction and landscaping) by Pinellas County and its citizens, to preserve critical open spaces and provide beach access along the densely populated Gulf Coast of Pinellas County."
+    },
+    {
+      "Photo": "http://www.stpeteparksrec.org/images/slide-parks-dellholmes/slide-parks-dellholmes-6.jpg",
+      "Title": "Dell Holmes Park",
+      "Slug": "dhp",
+      "Hours": "Sunrise to Sundown",
+      "EntranceFee": "No",
+      "Website": "http://www.stpeteparksrec.org/dell-holmes-park.html",
+      "Phone": "tel:1-727-893-7441",
+      "AddressLat": "27.742688",
+      "AddressLong": "-82.662999",
+      "ActivitiesAmenities": "Splash Pad, Walking, Picnicking, Golf, Fishing, Bathrooms, Kayaking/Canoeing, Playground, Fitness Center, Climbing",
+      "Description": "Located on the north shore of Lake Maggiore, Dell Holmes Park is the home of St. Petersburg's first zero-depth water playground. Open from May 1 to Oct. 31, it has water bubbling up from the ground, shooting from dolphins and frogs and pouring from colorful arches as kids scamper on the non-skid surface. The sprayground is part of the playground area and operates during the summer months. An in-ground tank holds 3,000 gallons of recirculated, chlorinated water. The playground can accommodate 70 people. SplashPad's hours are 9 a.m. to 8 p.m. daily through October."
     }
   ]
 }
